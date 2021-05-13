@@ -1,16 +1,12 @@
 import React from "react";
 import { VolumeNotice } from "@icon-park/react";
-import useSound from "use-sound";
 import "./Phonetic.css";
 
 export default function Phonetic(props) {
-  let audio = props.phonetic.audio;
-  const [play] = useSound(audio, {
-    volume: 0.5,
-  });
   function playAudio(event) {
     event.preventDefault();
-    play();
+    let audio = new Audio(props.phonetic.audio);
+    audio.play();
   }
   return (
     <div className="Phonetic">
