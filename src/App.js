@@ -8,7 +8,7 @@ export default function App() {
         <header className="App-header">
           <h1>Dictionary</h1>
         </header>
-        <Dictionary />
+        <Dictionary keyWordDefault="sunset" />
         <footer className="footer">
           <small>Coded by Ekaterina Ivanchenko and it is </small>
           <a
