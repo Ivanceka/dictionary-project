@@ -1,7 +1,23 @@
-h2 {
-  margin-bottom: 20px;
-  text-align: center;
+input {
+  display: block;
+  width: 100%;
+  height: 60px;
+  font-size: 18px;
+  border-radius: 4px;
+  line-height: 21px;
+  padding: 22px;
+  border: 1px solid #ddd;
+  background-color: #faf3f3;
 }
-.dictionary {
-  text-align: center;
+.dictionary section {
+  background-color: #e1e5ea;
+  margin-top: 10px;
+  border-radius: 10px;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+  padding: 40px;
+  opacity: 0.7;
+}
+.dictionary .example {
+  font-size: 13px;
+  font-style: italic;
 }
