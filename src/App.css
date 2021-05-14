@@ -1,5 +1,10 @@
+:root {
+  --primary-color: #faf3f3;
+  --secondary-color: #e1e5ea;
+}
+
 .App {
-  background: #faf3f3;
+  background: var(--primary-color);
   max-width: 960px;
   margin: 0 auto;
 }
@@ -12,4 +17,9 @@
 }
 h1 {
   padding: 40px 0 10px;
+}
+@media (max-width: 576px) {
+  h1 {
+    padding: 20px 0 5px;
+  }
 }

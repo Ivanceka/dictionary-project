@@ -10,7 +10,7 @@ export default function Phonetic(props) {
   }
   return (
     <div className="Phonetic">
-      <a href="/" rel="noreferrer" onClick={playAudio}>
+      <a href="/" rel="noreferrer" onClick={playAudio} title="Sound">
         <VolumeNotice theme="outline" size="24" />
       </a>
       {props.phonetic.text}

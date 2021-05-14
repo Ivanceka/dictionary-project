@@ -15,12 +15,18 @@ export default function App() {
             href="https://github.com/Ivanceka/dictionary-project"
             target="_blank"
             rel="noreferrer"
+            title="GitHub.com"
           >
             <small>open-source,</small>
           </a>
           <small> photo from </small>
-          <a href="https://www.pexels.com/" target="_blank" rel="noreferrer">
-            <small>Pexel.</small>
+          <a
+            href="https://www.pexels.com/"
+            target="_blank"
+            rel="noreferrer"
+            title="Pexels.com"
+          >
+            <small>Pexels.</small>
           </a>
         </footer>
       </div>
