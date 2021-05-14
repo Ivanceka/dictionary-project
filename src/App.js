@@ -16,7 +16,11 @@ export default function App() {
             target="_blank"
             rel="noreferrer"
           >
-            <small>open-source</small>
+            <small>open-source,</small>
+          </a>
+          <small> photo from </small>
+          <a href="https://www.pexels.com/" target="_blank" rel="noreferrer">
+            <small>Pexel.</small>
           </a>
         </footer>
       </div>
